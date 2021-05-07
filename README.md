@@ -9,12 +9,17 @@ The checkpoint folder contains the tensorflow model that is based off of the yol
 
 Below are some examples of the neural network:
 
-![Early tests of the network (1400 iterations), notice some iron ores are not being identified in the inventory](examples/detection1.png)
+![](examples/detection1.png)
+Early tests of the network (1400 iterations), notice some iron ores are not being identified in the inventory
 
-![Another early test, the network identifies every ore rock correctly](examples/detection2.png)
+![](examples/detection2.png)
+Another early test, the network identifies every ore rock correctly
 
-![After much more training (3000 iterations) it correctly identifies every iron ore in the inventory and every ore rock](examples/detection3.png)
+![](examples/detection3.png)
+After much more training (3000 iterations) it correctly identifies every iron ore in the inventory and every ore rock
 
-![Here is an example of the early model's detection on a pre-recorded video](examples/video.gif)
+![](examples/video.gif)
+Here is an example of the early model's detection on a pre-recorded video
 
-![An example of the final fully automated script working via screen capture (apologies for the bad quality and stutter, the fps was really bad)](examples/screen_capture.gif)
+![](examples/screen_capture.gif)
+An example of the final fully automated script working via screen capture (apologies for the bad quality and stutter, the fps was really bad)
