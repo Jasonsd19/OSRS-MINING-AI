@@ -7,6 +7,8 @@ The darknet files contain the weights I've trained at 1400 iterations and 3000 i
 
 The checkpoint folder contains the tensorflow model that is based off of the yolov4 weights I trained.
 
+The screen_capture.py script has a while loop constantly capturing the screen and utilises the tensorflow model to identify objects. The position of the relevant rock is recorded (in our case iron rocks) and an additional thread is spawned to handle mining the rock. The thread then waits for an event trigger to exit, this event is the addition of an iron ore into our inventory. The process then repeats, once we have five or more iron ores in our inventory the script will identify and drop all of them so we never run out of inventory space.
+
 Below are some examples of the neural network:  
 
 
