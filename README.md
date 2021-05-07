@@ -9,4 +9,4 @@ The checkpoint folder contains the tensorflow model that is based off of the yol
 
 Below are some examples of the neural network.
 
-! [] example/screen_capture.gif
+! [] examples/screen_capture.gif
