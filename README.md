@@ -7,19 +7,24 @@ The darknet files contain the weights I've trained at 1400 iterations and 3000 i
 
 The checkpoint folder contains the tensorflow model that is based off of the yolov4 weights I trained.
 
-Below are some examples of the neural network:
+Below are some examples of the neural network:  
 
-![](examples/detection1.png)
+![](examples/detection1.png)  
+
 Early tests of the network (1400 iterations), notice some iron ores are not being identified in the inventory
 
-![](examples/detection2.png)
+![](examples/detection2.png)  
+
 Another early test, the network identifies every ore rock correctly
 
-![](examples/detection3.png)
+![](examples/detection3.png)  
+
 After much more training (3000 iterations) it correctly identifies every iron ore in the inventory and every ore rock
 
-![](examples/video.gif)
+![](examples/video.gif)  
+
 Here is an example of the early model's detection on a pre-recorded video
 
-![](examples/screen_capture.gif)
+![](examples/screen_capture.gif)  
+
 An example of the final fully automated script working via screen capture (apologies for the bad quality and stutter, the fps was really bad)
